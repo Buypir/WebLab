@@ -1,0 +1,21 @@
+.body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+a {
+text-decoration: none;
+}
+
+li {
+    display: block;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+}
