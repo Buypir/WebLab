@@ -1,0 +1,91 @@
+.fourthpage {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 85px;
+    width: 100%;
+    height: 440px;
+    
+}
+
+.fourthpage h3 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22.6px;
+    color: #222F33;
+}
+
+.fourthpage h5 {
+    font-family: 'Rubik'; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #646D70;
+    width: 155px;
+    height: 66px; 
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .fourthpage {
+        justify-content: start;
+        display: flex;
+        margin-top: 5px;
+        height: 520px;
+        max-width: 40%;
+        position: relative;
+    }
+
+    .fourthpage__image{
+        width: 55%;
+        left: 15px;
+        position: absolute;
+        scale: 70%;
+        top: 185px;
+        
+        
+    }
+    
+    .fourthpage h3 {
+        font-size: 13px;
+        line-height: 8px;
+        
+    }
+    
+    .fourthpage h5 {
+        font-size: 11px;
+        line-height: 12px;
+        width: 150px;
+        height: 30px; 
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+    .fourthpage {
+        height: 1150px;
+        position: relative;
+        
+    }
+
+    .fourthpage__image  {
+        scale: 220%;
+        max-height: 600px;
+    }
+
+    .fourthpage__image img {
+        margin-top: 220px;
+        margin-left: 80px;
+    }
+    
+    .fourthpage h3 {
+        font-size: 38px;
+        line-height: 2px;
+    }
+    
+    .fourthpage h5 {
+        font-size: 34px;
+        line-height: 44px;
+        width: 350px;
+        height: 130px; 
+        padding-bottom: 120px;
+    }
+}

@@ -1,0 +1,137 @@
+.secondpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.secondpage__text {
+    width: 500px ;
+
+}
+    
+.secondpage__text h1 {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222F33;
+}
+
+.secondpage__text h3 {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+}
+
+.secondpage__text button {
+    padding: 10px 14px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #606B74;
+    border: 1px solid #646D70;
+    border-radius: 4px;
+    transition: all .4s ease;
+}
+.secondpage__text button:hover{
+    color: rgb(18, 18, 18);
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .secondpage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        margin-bottom: 5px;
+    }
+    
+    .secondpage__text {
+        width: 45%;
+       }
+
+       .container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+   
+       .secondpage__text h1 {
+           font-size: .75rem;
+           line-height: 1rem;
+           font-style: normal;
+       }
+   
+       .secondpage__text h3 {
+           font-weight: 500;
+           font-size: .5625rem;
+           line-height: .6375rem;
+           margin-top: 0.9375rem;
+       }
+   
+       .secondpage__text button {
+           padding: 5px 7px;
+           font-family: 'Rubik';
+           font-weight: 500;
+           font-size: 11px;
+           text-align: center;
+           color: #606B74;
+           border: 1px solid #646D70;
+           border-radius: 4px;
+           transition: all .4s ease;
+       }
+   
+       .secondpage__text button:hover{
+           color: darkgray;
+       }
+   
+       .secondpage__image {
+            scale: 60%;
+            width: 150px;
+            
+       }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+    .secondpage {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .secondpage__text {
+        width: 1000px ;
+    }
+        
+    .secondpage__text h1 {
+        font-size: 69px;
+        line-height: 42px;
+    }
+    
+    .secondpage__text h3 {
+        font-size: 32px;
+        line-height: 58px;
+        color: #4c5153;
+        padding-bottom: 15px;
+    }
+    
+    .secondpage__text button {
+        padding: 25px 32px;
+        font-size: 32px;
+        border: 4px solid #646D70;
+        border-radius: 25px 15px;
+    }
+
+    .secondpage__text button:hover{
+        border: 7px solid #646D70;
+    }
+
+    .secondpage__image {
+        scale: 213%;
+        margin-right: 150px;
+        z-index: -5;
+    }
+
+}

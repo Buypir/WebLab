@@ -1,0 +1,120 @@
+.footer__container {
+    background-color: #222F33;
+    align-items: center;
+    
+}
+
+.footer__menu {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 72px;
+}
+
+.mail {
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.privacyandcookies ul {
+    display: flex;
+}
+
+.privacyandcookies li {
+    margin-right: 30px;
+    display: flex
+}
+
+.privacyandcookies li a {
+    font-style: normal;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 12px; 
+    line-height: 14.22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+    .footer__container {
+        background-color: #222F33;
+        align-items: center;
+        max-width: 320px;
+        height: 50px;
+        
+    }
+    
+    .footer__menu {
+        justify-content: space-between;
+        max-width: 300px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .footer__logo {
+        align-items: center;
+        scale: 60%;
+        position: absolute;
+        opacity: 0.8;
+        left: 75px;
+    }
+    
+    .mail {
+        font-weight: 500;
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    
+    .privacyandcookies ul {
+        display: flex;
+    }
+    
+    .privacyandcookies li {
+        margin-right: 10px;
+        display: flex
+    }
+    
+    .privacyandcookies li a {
+        margin-top: 5px;
+        font-size: 8px; 
+        line-height: 14.22px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+    .footer__menu {
+        justify-content: space-between;
+        height: 140px;
+        max-width: 2200px;
+        margin: 0 auto;
+    }
+    
+    .mail {
+        font-size: 30px;
+        opacity: 0.7;
+    }
+
+    .footer__logo{
+        scale: 200%;
+        margin-left: 200px;
+    }
+      
+    .privacyandcookies li {
+        margin-right: 120px;
+        display: flex
+    }
+    
+    .privacyandcookies li a {
+        font-size: 30px; 
+        opacity: 0.7;
+    }
+}
